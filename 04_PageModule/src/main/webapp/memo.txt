@@ -1,0 +1,12 @@
+[main.jsp]
+- radio 선택 (tv,cam,mp3)
+- 선택한 radio값(1,2,3)을 가지고 control.jsp로 이동
+
+[top.jsp]
+- get 방식 형태로 링크 설정(control.jsp의 products값(=radio값)으로)
+
+[control.jsp : 거쳐가는 페이지]
+- radio값(1,2,3)에 따른 파일명(contentPage)을 가지고 template.jsp로 이동
+
+[template.jsp]
+- contentPage로 테이블 구성
