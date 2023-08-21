@@ -1,0 +1,28 @@
+[JDBC 프로그래밍 단계]
+0. jar 파일 추가
+   : 파일경로 > C:\Oracle\product\12.2.0\dbhome_1\jdbc\lib
+1. 드라이버 로드: Class.forName()
+2. 계정에 접속(DB연결): DriverManager.getConnection()
+3. sql문 작성 및 분석: prepareStatement()
+4. SQL문 실행
+   - select문: excuteQuery()
+   - insert,update,delete문: executeUpdate()
+5. 접속종료: close()
+
+drop table member cascade constraints;
+
+create table member(
+	id varchar2(10) primary key,
+	passwd varchar2(10) not null,
+	name varchar2(10) not null,
+	reg_date date default sysdate
+);
+
+insert into member(id, passwd, name, reg_date)
+values('kim','1234','김연아','2000-3-3');
+
+insert into member
+values('son','7777','손흥민','2023-10-20');
+
+commit;
+select * from member;
