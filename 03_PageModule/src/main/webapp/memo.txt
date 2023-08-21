@@ -1,0 +1,5 @@
+액션태그
+<jsp:include page="top.jsp">
+ 
+지시어 (c.f: 파일명은 가능하지만 변수명은 에러)
+<%@ include file="bottom.jsp" %>
