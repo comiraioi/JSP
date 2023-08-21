@@ -1,0 +1,20 @@
+[외부 브라우저 설정 방법]
+Window > Preferences
+General > Web Browser > Use external web browser > New
+
+[언어 설정 방법]
+Window > Preferences
+Web > HTML Files > Encoding : IOS 10646/Unicode(utf-8)
+
+[Tomcat 설정]
+: Tomcat 9.0 > 포트번호 9191 저장
+
+[에러 해제]
+tomcat 9.0 > lib > servlet-api 파일을 web-inf에 넣음
+
+
+<웹 서버 폴더 위치>
+C:\Users\Comi\JSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\01_Basic\org\apache\jsp\_01_005fbasic
+
+<서블릿 파일의 위치>
+C:\Users\Comi\JSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\01_Basic\org\apache\jsp\_01_005fbasic
